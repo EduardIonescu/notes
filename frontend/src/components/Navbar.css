@@ -1,3 +1,7 @@
+.navbar{
+    background-color: hotpink;
+    filter: saturate(80%);
+}
 .link {
     color: white;
     text-decoration: none;

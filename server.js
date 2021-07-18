@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://eduard:ZtuxBcgBfVbtz4cC@cluster0.6xizy.mongodb.n
 }
 )
 
-app.use('/', require('./routes/noteRoute'))
+app.use('/', require('./routes/exerciseRoute'))
 
 app.listen(9000, function () {
     console.log('Running on port 9000')
