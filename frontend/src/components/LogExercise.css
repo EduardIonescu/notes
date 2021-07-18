@@ -1,3 +1,6 @@
+Button{
+    border:none;
+}
 .log-title {
     margin-top: 2rem;
     padding-left: 0;
@@ -29,4 +32,27 @@ hr{
 .btn:hover {
     color:white;
     filter: saturate(140%);
+}
+
+.div-sets {
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+.div-sets:hover{
+    background-color: rgba(250, 102, 176, 0.2);
+}
+
+.number-sets {
+    color: gray;
+}
+
+.closed {
+    cursor: pointer;
+    text-align: end;
+    padding: 0 5px;
+
+}
+
+#btn-trash {
+    margin:15px;
 }
